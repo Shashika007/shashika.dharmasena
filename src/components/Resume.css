@@ -1,0 +1,150 @@
+/* src/components/Resume.css */
+
+.resume {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.resume h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    text-align: left;
+}
+
+.resume h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #3498db;
+}
+
+.resume h4 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.resume p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.section {
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Education and Experience Lists */
+.section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.section li {
+    margin-bottom: 15px;
+}
+
+.section li strong {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Responsibility CSS styling */
+.job-title-company {
+    /* margin-bottom: 5px; /* Space between job title/company and responsibilities */
+    font-size: 1.2em;      /* Increase font size for job title */
+    margin-bottom: 5px; /* Space between job title/company and responsibilities */
+    /*display: block; /* Ensure responsibilities appear on a new line */
+}
+
+.responsibilities {
+    list-style: none; /* Remove bullet points */
+    padding-left: 20px; /* Add indentation for responsibilities */
+    margin-top: 5px;  /* Add some space between job title and responsibilities */
+}
+
+.responsibilities li em {
+    font-weight: bold;
+    font-style: normal; /* Remove italics */
+    color: #555;
+    margin-right: 5px;
+}
+/* Responsibility CSS styling */
+/* Education item */
+.education-item{
+    font-size: 1.2em;
+}
+/* Education item */
+/* Skills Section Styles */
+.skills-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    background-color: #f0f8ff;
+    border-radius: 12px;
+}
+
+.skill-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h4 {
+    margin-bottom: 15px;
+    color: #2980b9;
+    font-size: 1.3em;
+}
+
+.skill-card ul {
+    list-style: none; /* remove normal bullet points */
+    padding-left: 0;
+}
+
+.skill-card li {
+    margin-bottom: 12px; /* Increase spacing between skills */
+    display: flex;
+    align-items: center; /* Vertically center */
+}
+
+.skill-card li span {
+    display: block;
+    margin-left: 8px; /* space it */
+}
+
+.skill-card li::before {
+    /* content: '\2022'; /* Custom marker */
+    display: none;
+    /*display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #3498db; /* Blue Bullet */
+    /*border-radius: 50%;
+    margin-right: 10px;*/
+}
+
+.skill-card h5 {
+    color: #2980b9;
+    font-size: 1em;
+}
+
+.skill-card li strong {
+    font-size: 1.1em;
+    color: #22709A;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

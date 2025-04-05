@@ -1,0 +1,48 @@
+/* src/components/Contact.css */
+.contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 20px; /* Add some space between buttons */
+    align-items: center;
+}
+
+.contact button {
+    padding: 10px 20px;
+    font-size: 16px;
+    /*background-color: #ffa500; /* Orange button */
+    background-color: #e0e0e0; /* Light Gray */
+    color: #333; /* Dark Gray text */
+    border: 1px solid #ccc; /* Light gray border */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex; /* Use flexbox for icon alignment */
+    align-items: center; /* Vertically center the icon and text */
+    gap: 8px; /* Add some space between the icon and text */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.2s ease; /* Smooth hover effect */
+}
+
+.contact button:hover {
+    background-color: #d0d0d0; /* Slightly darker gray on hover */
+}
+
+.email-icon {
+    font-size: 1.2em; /* Adjust the icon size as needed */
+    color: #888; /* Gray Email Icon */
+}
+
+.linkedin-icon {
+    font-size: 1.2em;
+    color: #0077B5; /* LinkedIn Blue */
+}
+
+.twitter-icon {
+    font-size: 1.2em;
+    color: #1DA1F2; /* Twitter Blue */
+}

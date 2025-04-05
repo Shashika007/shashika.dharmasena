@@ -1,0 +1,24 @@
+/* src/components/AboutMe.css */
+.about-me {
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Soft shadow */
+    margin-bottom: 40px;
+}
+
+.about-me h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: left; /* Left-align the heading */
+}
+
+.about-me p {
+    font-size: 18px; /* Larger font size */
+    line-height: 1.7; /* Increased line height */
+    text-align: left; /* Left-align the paragraph */
+    margin-bottom: 20px; /* Add space between paragraphs */
+}

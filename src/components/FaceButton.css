@@ -1,0 +1,60 @@
+/* src/components/FaceButton.css */
+
+.face-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    z-index: 999;   /* Lower z-index */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2em; /* Increase font size for "Talk to me" text */
+}
+
+.face-image-wrapper {
+    position: relative;
+    width: 75px;   /* Increased width */
+    height: 75px;  /* Increased height */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.face-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block; /* removes the small gap below the image */
+}
+
+.animated-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 119, 255, 0.7); /* Adjust color and opacity */
+    animation: pulse 2s infinite cubic-bezier(0.66, 0, 0.34, 1);
+    box-sizing: border-box; /* Important: Include border in the size */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
