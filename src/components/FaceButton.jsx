@@ -1,7 +1,7 @@
 // src/components/FaceButton.jsx
 import React from 'react';
 import './FaceButton.css'; // Create FaceButton.css
-import profileImage from '/shashika.dharmasena/assets/shashika.jpg'; // Import your profile image
+import profileImage from '/assets/shashika.jpg'; // Import your profile image
 
 const FaceButton = ({ onClick }) => {
     return (
