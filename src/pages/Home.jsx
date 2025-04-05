@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <div className="container">
             <div className="profile-section">
-                <img src="/assets/shashika.jpg" alt="Profile" />
+                <img src="/shashika.dharmasena/assets/shashika.jpg" alt="Profile" />
                 <div>
                     <h1>Shashika Dharmasena</h1>
                     <p>Senior Engineer in Generative AI and Robotics</p>
