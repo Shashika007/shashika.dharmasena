@@ -17,11 +17,11 @@ const Portfolio = () => {
                 date: 'June 2024',
                 // Use 'images' array - even for one image
                 images: [
-                    '/images/nvidia-taipei1.jpg', // Example path 1
-                    '/images/nvidia-taipei2.jpg', // Example path 1
-                    '/images/nvidia-taipei3.jpeg', // Example path 2
-                    '/images/nvidia-taipei4.jpg',  // Example path 3
-                    '/images/nvidia-taiepi5.JPG'   // Example path 4
+                    '/shashika.dharmasena/images/nvidia-taipei1.jpg', // Example path 1
+                    '/shashika.dharmasena/images/nvidia-taipei2.jpg', // Example path 1
+                    '/shashika.dharmasena/images/nvidia-taipei3.jpeg', // Example path 2
+                    '/shashika.dharmasena/images/nvidia-taipei4.jpg',  // Example path 3
+                    '/shashika.dharmasena/images/nvidia-taiepi5.JPG'   // Example path 4
                 ],
                 link: 'https://register.nvidia.com/events/widget/nvidia/aisummittaiwan/catalogtw?_gl=1*1ssdrij*_gcl_au*MzUxMzI2NjYxLjE3MTA4NDA5MjI'
             },
@@ -31,10 +31,10 @@ const Portfolio = () => {
                 shortDesc: 'Co-presented a semantic search demo in the AWS Bedrock & OpenSearch session.',
                 fullDesc: 'Participated in the AWS Smart Retail Forum 2024 in Taipei (March 28). Contributed to the technical session titled "Boosting AI with RAG Bedrock and OpenSearch: Key to Customer Satisfaction and Growth" alongside Areoll (VP, President Information Corp.) and Ray Wang (Sr. Solutions Architect, AWS). During this session, I assisted in demonstrating our AI-powered semantic search solution for e-commerce, showcasing its capability to understand both text and image queries using technologies relevant to the session like RAG and OpenSearch to enhance product discovery and customer satisfaction. The forum focused on leveraging AWS cloud and AI for the new era of retail, providing excellent opportunities for networking with industry professionals.',
                 date: 'June 2024',
-                images: ['/images/google_cloud_summit1.jpg',
-                    '/images/google_cloud_summit2.jpg',
-                    '/images/google_cloud_summit3.jpg',
-                    '/images/google_cloud_summit4.jpg',
+                images: ['/shashika.dharmasena/images/google_cloud_summit1.jpg',
+                    '/shashika.dharmasena/images/google_cloud_summit2.jpg',
+                    '/shashika.dharmasena/images/google_cloud_summit3.jpg',
+                    '/shashika.dharmasena/images/google_cloud_summit4.jpg',
                 ],
                 link: 'https://cloudonair.withgoogle.com/events/summit-taipei-2024'
             },
@@ -44,8 +44,8 @@ const Portfolio = () => {
                 shortDesc: 'Presented our scalable hybrid search solution built on GKE, Triton & custom models.',
                 fullDesc: 'Delivered a presentation at the Google Taipei office detailing our annual progress on developing and deploying a scalable hybrid search solution tailored for the retail sector. Explained the architecture, highlighting the use of Google Kubernetes Engine (GKE) clusters for search client management and a dedicated GPU-enabled GKE cluster leveraging Autopilot for efficient scaling. Detailed how this GPU cluster runs NVIDIA Triton Inference Server to serve our custom embedding and re-ranker models, which were specifically fine-tuned for Traditional Chinese to optimize search relevance in our target market.',
                 date: 'May 2024',
-                images: ['/images/google_presentation1.JPG',
-                    '/images/google_presentation2.JPG',
+                images: ['/shashika.dharmasena/images/google_presentation1.JPG',
+                    '/shashika.dharmasena/images/google_presentation2.JPG',
                 ],
                 link: ''
             },
@@ -57,10 +57,10 @@ const Portfolio = () => {
                 date: 'April 2024',
                 // Use 'images' array
                 images: [
-                    '/images/google_cloud_next1.JPG', // Example path 1
-                    '/images/ai-summit.jpg', // Example path 1
-                    '/images/google_cloud_next2.JPG', // Example path 2
-                    '/images/google_cloud_next3.JPG'  // Example path 3
+                    '/shashika.dharmasena/images/google_cloud_next1.JPG', // Example path 1
+                    '/shashika.dharmasena/images/ai-summit.jpg', // Example path 1
+                    '/shashika.dharmasena/images/google_cloud_next2.JPG', // Example path 2
+                    '/shashika.dharmasena/images/google_cloud_next3.JPG'  // Example path 3
                 ],
                 link: 'https://cloud.google.com/blog/topics/google-cloud-next/welcome-to-google-cloud-next24'
             },
@@ -70,10 +70,10 @@ const Portfolio = () => {
                 shortDesc: 'Co-presented a semantic search demo in the AWS Bedrock & OpenSearch session.',
                 fullDesc: 'Participated in the AWS Smart Retail Forum 2024 in Taipei (March 28). Contributed to the technical session titled "Boosting AI with RAG Bedrock and OpenSearch: Key to Customer Satisfaction and Growth" alongside Areoll (VP, President Information Corp.) and Ray Wang (Sr. Solutions Architect, AWS). During this session, I assisted in demonstrating our AI-powered semantic search solution for e-commerce, showcasing its capability to understand both text and image queries using technologies relevant to the session like RAG and OpenSearch to enhance product discovery and customer satisfaction. The forum focused on leveraging AWS cloud and AI for the new era of retail, providing excellent opportunities for networking with industry professionals.',
                 date: 'March 2024',
-                images: ['/images/aws_event1.JPG',
-                    '/images/aws_event2.JPG',
-                    '/images/aws_event3.JPG',
-                    '/images/aws_event4.JPG',
+                images: ['/shashika.dharmasena/images/aws_event1.JPG',
+                    '/shashika.dharmasena/images/aws_event2.JPG',
+                    '/shashika.dharmasena/images/aws_event3.JPG',
+                    '/shashika.dharmasena/images/aws_event4.JPG',
                 ],
                 link: 'https://aws.amazon.com/tw/events/retail/'
             },
@@ -83,7 +83,7 @@ const Portfolio = () => {
                 shortDesc: 'Attended GTC session on accelerating development of LLM-based AI applications.',
                 fullDesc: 'Participated in the NVIDIA GTC Watch Party titled "Enabling Fast-path to Large-Language-Model Based AI applications" [WP41199b]. The session focused on strategies and techniques for efficiently developing AI applications using customized Large Language Models (LLMs). Key topics included leveraging state-of-the-art techniques and NVIDIA\'s ecosystem, specifically highlighting the NVIDIA NeMo LLM Service, to make advanced LLM application development more accessible. This event also provided a platform to engage with peers and share practical insights from my own experience implementing and working with LLMs.',
                 date: 'September 2022',
-                images: ['/images/gtc_v3.jpg',
+                images: ['/shashika.dharmasena/images/gtc_v3.jpg',
                 ],
                 link: 'https://lnkd.in/edqy5qxe'
             },
@@ -93,7 +93,7 @@ const Portfolio = () => {
                 shortDesc: 'Co-presented on building a retail search engine with Triton, featuring Thai voice search via NVIDIA Conversational AI.',
                 fullDesc: 'Co-presented at NVIDIA GTC Spring 2022 in the session titled "Search Engine for Retail Online Shopping using NVIDIA Triton for High Volume of User Connections" [S41603]. Detailed the development of an AI-powered search engine tailored for the Thai online retail market. Showcased the implementation of a voice search function leveraging Thai Automatic Speech Recognition (ASR), significantly optimized using the NVIDIA Conversational AI Platform to achieve ~95% transcription accuracy, allowing users efficient voice input. Also discussed the utilization of NVIDIA Triton Inference Server to effectively manage high volumes of user connections for the search service.',
                 date: 'Spring 2022',
-                images: ['/images/nvidia-gtc-v2.jpeg',
+                images: ['/shashika.dharmasena/images/nvidia-gtc-v2.jpeg',
                 ],
                 link: 'https://www.nvidia.com/en-us/on-demand/session/gtcspring22-s41603/'
             },
@@ -103,7 +103,7 @@ const Portfolio = () => {
                 shortDesc: 'Presented on a Thai retail smart call center voice chatbot using NVIDIA Conversational AI, reducing agent load by 60%.',
                 fullDesc: 'Presented/Co-presented (please confirm your role) at NVIDIA GTC Fall 2021 in the session focusing on Conversational AI in a smart call center for the Thai retail market [A31283]. Detailed the implementation of an end-to-end voice chatbot designed to support human agents. Explained how combining Interactive Voice Response (IVR), SIP calls, and the NVIDIA Conversational AI platform enabled the chatbot to handle frequent user Q&A, resulting in a significant 60% reduction in human agent loading. Shared insights on realizing the call center service application using NVIDIA\'s platform and strategies employed to address and solve latency challenges.',
                 date: 'Fall 2021',
-                images: ['/images/nvidia-gtc-v1.jpeg',
+                images: ['/shashika.dharmasena/images/nvidia-gtc-v1.jpeg',
                 ],
                 link: 'https://www.nvidia.com/en-us/on-demand/session/gtcfall21-a31283/'
             },
@@ -113,10 +113,10 @@ const Portfolio = () => {
                 shortDesc: 'Attended ROS 2.0 summit, showcased robotics dev (New Era AI), met Open Robotics CEO.',
                 fullDesc: 'Attended the 2019 IEEE International Industrial Summit on Robot Operation System 2.0 in Taipei, representing New Era AI Robotics. Gained in-depth knowledge about the advancements and direction of ROS 2.0, a crucial platform for robotics development. Showcased our company\'s progress in robotics applications during the event. The summit provided invaluable networking opportunities, including a significant interaction with Brian Gerkey (CEO, Open Robotics) and discussions with other influential figures, such as key individuals involved in the development of platforms like Intel\'s OpenVINO.',
                 date: 'May 2019',
-                images: ['/images/ros-summit1.jpeg',
-                    '/images/ros-summit2.jpeg',
+                images: ['/shashika.dharmasena/images/ros-summit1.jpeg',
+                    '/shashika.dharmasena/images/ros-summit2.jpeg',
                 ],
-                link: 'http://go.adlinktech.com/rs/731-NFP-575/images/20190506_ROS2_TW_ROS2_Summit_English.html'
+                link: 'http://go.adlinktech.com/rs/731-NFP-575/shashika.dharmasena/images/20190506_ROS2_TW_ROS2_Summit_English.html'
             }
 
 
@@ -129,7 +129,7 @@ const Portfolio = () => {
                 fullDesc: 'Contributed to a Digital Twin project focusing on implementing realistic audio-to-face synthesis. Leveraged NVIDIA Omniverse capabilities to create dynamic facial animations driven directly by audio input, enhancing the expressiveness and realism of digital human representations.',
                 technologies: ['NVIDIA Omniverse', 'Python', 'AI/Deep Learning', '3D Animation', 'Audio Processing'],
                 images: [
-                    '/images/audio-2-face.png',
+                    '/shashika.dharmasena/images/audio-2-face.png',
 
                 ],
                 github: ''
@@ -140,7 +140,7 @@ const Portfolio = () => {
                 shortDesc: 'Trained and deployed a custom Thai TTS model using NVIDIA Triton for GPU inference.',
                 fullDesc: 'Led the development lifecycle of a custom Text-to-Speech (TTS) model specifically for the Thai language. This involved training the model for natural-sounding voice output, optimizing it for high-performance GPU inference, and successfully deploying it using NVIDIA Triton Inference Server in a production environment.',
                 technologies: ['Text-to-Speech (TTS)', 'Python', 'Deep Learning', 'NVIDIA Triton', 'GPU Computing', 'Thai Language Processing', 'Model Optimization'],
-                images: ['/images/text-to-speech.png'],
+                images: ['/shashika.dharmasena/images/text-to-speech.png'],
                 github: ''
             },
             {
@@ -150,9 +150,9 @@ const Portfolio = () => {
                 fullDesc: 'Built a predictive maintenance system using machine learning to forecast equipment failures in manufacturing plants. Reduced unplanned downtime by 35% and maintenance costs by 25%.',
                 technologies: ['Scikit-learn', 'Pandas', 'Time Series Analysis', 'Azure ML'],
                 images: [
-                    '/images/predictive-maintenance-1.jpg',
-                    '/images/predictive-maintenance-2.jpg',
-                    '/images/predictive-maintenance-3.jpg'
+                    '/shashika.dharmasena/images/predictive-maintenance-1.jpg',
+                    '/shashika.dharmasena/images/predictive-maintenance-2.jpg',
+                    '/shashika.dharmasena/images/predictive-maintenance-3.jpg'
                 ],
                 github: 'https://github.com/yourusername/predictive-maintenance'
             }
@@ -164,7 +164,7 @@ const Portfolio = () => {
                 shortDesc: 'SLAM-based navigation system for drones',
                 fullDesc: 'Designed and implemented a SLAM (Simultaneous Localization and Mapping) system for autonomous drone navigation in GPS-denied environments. The system enables drones to create maps of unknown environments and navigate through them safely.',
                 technologies: ['ROS', 'C++', 'SLAM', 'Computer Vision', 'Sensor Fusion'],
-                images: ['/images/drone-navigation.jpg'],
+                images: ['/shashika.dharmasena/images/drone-navigation.jpg'],
                 github: 'https://github.com/yourusername/drone-navigation'
             },
             {
@@ -174,8 +174,8 @@ const Portfolio = () => {
                 fullDesc: 'Developed a control system for a 6-DOF robotic arm used in precision assembly tasks. Implemented inverse kinematics algorithms and force feedback control to achieve sub-millimeter accuracy.',
                 technologies: ['Python', 'ROS', 'Control Theory', 'CAD', 'Arduino'],
                 images: [
-                    '/images/robotic-arm-1.jpg',
-                    '/images/robotic-arm-2.jpg'
+                    '/shashika.dharmasena/images/robotic-arm-1.jpg',
+                    '/shashika.dharmasena/images/robotic-arm-2.jpg'
                 ],
                 github: 'https://github.com/yourusername/robotic-arm'
             },
@@ -185,7 +185,7 @@ const Portfolio = () => {
                 shortDesc: 'Multi-robot coordination system',
                 fullDesc: 'Created a swarm robotics platform that enables coordination among multiple small robots. Implemented distributed algorithms for collective behavior, path planning, and task allocation.',
                 technologies: ['Python', 'Multi-agent Systems', 'Wireless Communication', 'Embedded Systems'],
-                images: ['/images/swarm-robotics.jpg'],
+                images: ['/shashika.dharmasena/images/swarm-robotics.jpg'],
                 github: 'https://github.com/yourusername/swarm-robotics'
             }
         ]
