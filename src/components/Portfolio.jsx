@@ -124,6 +124,59 @@ const Portfolio = () => {
         aiProjects: [
             {
                 id: 'ai1',
+                title: 'Advanced Hybrid Search Engine for Retail (Multi-lingual)',
+                shortDesc: 'Developed & deployed a scalable hybrid search (keyword+semantic) for major retail platforms, doubling conversion rates.',
+                fullDesc: 'Architected and delivered a sophisticated hybrid search engine specifically designed to overcome the limitations of traditional keyword search in the retail sector. This system, fine-tuned for Traditional Chinese and supporting multiple languages, seamlessly blends keyword matching with deep semantic understanding using advanced embedding and re-ranking models. Integrated Large Language Models to generate descriptive tags, significantly improving query interpretation and relevance. Engineered for high scalability and optimized for low latency, the system ensures fast query responses even under heavy load through efficient caching and optimized model inference. Successfully launched across several high-traffic online platforms within Uni-President Corporation, including 7-Eleven, providing users with more accurate, relevant, and consistent product discovery. This enhanced customer experience directly led to an approximate doubling of search-driven conversion rates.',
+                technologies: [
+                    'Hybrid Search Architecture',
+                    'Semantic Search / Vector Search',
+                    'Natural Language Processing (NLP)',
+                    'Large Language Models (LLMs)',
+                    'Machine Learning / Deep Learning',
+                    'Re-ranking Algorithms',
+                    'Scalable Systems Design',
+                    'Performance Optimization',
+                    'Information Retrieval',
+                    'E-commerce Search',
+                    'Traditional Chinese Language Processing'
+                ],
+                images: [
+                    '/shashika.dharmasena/images/hybrid-search-info.png',
+                ],
+                link: 'https://711go.7-11.com.tw/'
+            },
+            {
+                id: 'ai2',
+                title: 'Pioneering Thai GPT-2 LLM: Development, Deployment & Integration',
+                shortDesc: 'Led development of a custom Thai GPT-2 LLM, deployed via Triton (~700+ tokens/sec), integrated with Langchain, influencing NVIDIA research.',
+                fullDesc: 'Led the initiative to develop one of Thailand\'s first custom Large Language Models (LLMs), specifically a GPT-2 architecture (88.5M parameters) tailored for the Thai language. Utilized NVIDIA NeMo Megatron framework and SentencePiece tokenization, training on datasets like Oscar Thai and Thai Wiki to address the unique challenges of Thai language representation. Successfully deployed the model via NVIDIA Triton Inference Server, achieving high throughput (~703 tokens/second on A10G). Concurrently, conducted early comparative analysis by adapter-finetuning and deploying Llama 2 shortly after its release. Developed custom Langchain classes to integrate both our Thai GPT-2 and the finetuned Llama 2 model into practical application chains, enabling the successful replacement of traditional NLP systems for chatbots and other applications. Maintained close collaboration with the NVIDIA Singapore team through weekly progress updates, sharing valuable feedback on the technical challenges of sovereign language LLM pre-training. These insights contributed to the broader understanding of multilingual LLM development, reflected in subsequent NVIDIA research and publications, such as their developer blog post on curating non-English datasets.',
+                technologies: [
+                    'LLM Pre-training',
+                    'NVIDIA NeMo Megatron',
+                    'NVIDIA Triton Inference Server',
+                    'GPT-2 Architecture',
+                    'Llama 2',
+                    'Adapter Fine-tuning',
+                    'Langchain Custom Integration',
+                    'Thai Language Processing',
+                    'Tokenization (SentencePiece)',
+                    'Model Deployment & Optimization',
+                    'NLP System Replacement',
+                    'Cross-functional Collaboration (NVIDIA)'
+                ],
+                images: [
+                    '/shashika.dharmasena/images/llm3.png', // Slide comparing V1 and V4 training
+                    '/shashika.dharmasena/images/llm1.png', // Slide showing training approach
+                    '/shashika.dharmasena/images/llm2.png', // Slide comparing Triton performance
+                    '/shashika.dharmasena/images/llm3.png' // Slide showing Langchain integration
+                    // Add more images if relevant and available
+                ],
+                // Optional: Add a reference or link section if desired, though the blog is mentioned in desc.
+                link: 'https://developer.nvidia.com/blog/curating-non-english-datasets-for-llm-training-with-nvidia-nemo-curator/',
+                github: '' // Not applicable for proprietary work
+            },
+            {
+                id: 'ai3',
                 title: 'Digital Twin: Audio-to-Face Synthesis',
                 shortDesc: 'Developed audio-to-face animation for digital twins using NVIDIA Omniverse.',
                 fullDesc: 'Contributed to a Digital Twin project focusing on implementing realistic audio-to-face synthesis. Leveraged NVIDIA Omniverse capabilities to create dynamic facial animations driven directly by audio input, enhancing the expressiveness and realism of digital human representations.',
@@ -135,58 +188,166 @@ const Portfolio = () => {
                 github: ''
             },
             {
-                id: 'ai2',
+                id: 'ai4',
                 title: 'Custom Thai Text-to-Speech (TTS) System',
                 shortDesc: 'Trained and deployed a custom Thai TTS model using NVIDIA Triton for GPU inference.',
-                fullDesc: 'Led the development lifecycle of a custom Text-to-Speech (TTS) model specifically for the Thai language. This involved training the model for natural-sounding voice output, optimizing it for high-performance GPU inference, and successfully deploying it using NVIDIA Triton Inference Server in a production environment.',
+                fullDesc: 'Led the development lifecycle of a custom Text-to-Speech (TTS) model specifically for the Thai language. This involved training the model for natural-sounding voice output, optimizing it for high-performance GPU inference, and successfully deploying it using NVIDIA Triton Inference Server in a production environment. A practical application of this custom Thai TTS technology within a smart call center context was presented at NVIDIA GTC Fall 2021 (Session A31283), offering a public example of its capabilities.',
                 technologies: ['Text-to-Speech (TTS)', 'Python', 'Deep Learning', 'NVIDIA Triton', 'GPU Computing', 'Thai Language Processing', 'Model Optimization'],
-                images: ['/shashika.dharmasena/images/text-to-speech.png'],
+                images: ['/shashika.dharmasena/images/tts-gosoft.png'],
                 github: ''
             },
             {
-                id: 'ai3',
-                title: 'Predictive Maintenance AI',
-                shortDesc: 'Machine learning for equipment failure prediction',
-                fullDesc: 'Built a predictive maintenance system using machine learning to forecast equipment failures in manufacturing plants. Reduced unplanned downtime by 35% and maintenance costs by 25%.',
-                technologies: ['Scikit-learn', 'Pandas', 'Time Series Analysis', 'Azure ML'],
+                id: 'ai5',
+                title: 'Optimized STT/TTS Deployment with Triton',
+                shortDesc: 'Engineered high-throughput, low-latency STT/TTS deployment on Triton using advanced optimization.',
+                fullDesc: 'Focused on optimizing the deployment pipeline for both Speech-to-Text (STT) and Text-to-Speech (TTS) models using NVIDIA Triton Inference Server. Implemented various optimization techniques (e.g., model quantization, dynamic batching, TensorRT) to achieve significant improvements in throughput and reductions in latency. These optimizations were critical for real-time applications, including enabling the large-scale STT deployment for 7-Eleven Thailand\'s voice search, which was detailed in our NVIDIA GTC 2022 presentation (Session S41603). The performance achieved through this work was further recognized when NVIDIA selected these models for benchmarking on their L4 GPU platform, featuring our company logo among L4 users.',
+                technologies: ['NVIDIA Triton', 'Model Optimization', 'TensorRT', 'STT', 'TTS', 'Performance Tuning', 'GPU Computing', 'System Architecture'],
                 images: [
-                    '/shashika.dharmasena/images/predictive-maintenance-1.jpg',
-                    '/shashika.dharmasena/images/predictive-maintenance-2.jpg',
-                    '/shashika.dharmasena/images/predictive-maintenance-3.jpg'
+                    '/shashika.dharmasena/images/triton-stt-tts.png',
                 ],
-                github: 'https://github.com/yourusername/predictive-maintenance'
+                github: ''
+            },
+            {
+                id: 'ai6',
+                title: 'Applied NLP: FastText Enhancements & Applications',
+                shortDesc: 'Enhanced NLP pipeline using FastText; built bad word detection & CRM analysis tools.',
+                fullDesc: 'Optimized the existing Natural Language Processing (NLP) pipeline by integrating FastText for improved performance and word representation quality. Subsequently, applied these enhanced capabilities to develop practical solutions, including an effective bad word detection filter and tools for automated CRM analysis to extract customer insights.',
+                technologies: ['NLP', 'FastText', 'Python', 'Text Classification', 'Text Analysis', 'CRM Analytics', 'Machine Learning'],
+                images: [
+                    '/shashika.dharmasena/images/fasttext.png',       // Placeholder: e.g., Word embedding visualization
+                ],
+                // github: '' // Likely not applicable
             }
         ],
         roboticsProjects: [
             {
                 id: 'rob1',
-                title: 'Autonomous Drone Navigation',
-                shortDesc: 'SLAM-based navigation system for drones',
-                fullDesc: 'Designed and implemented a SLAM (Simultaneous Localization and Mapping) system for autonomous drone navigation in GPS-denied environments. The system enables drones to create maps of unknown environments and navigate through them safely.',
-                technologies: ['ROS', 'C++', 'SLAM', 'Computer Vision', 'Sensor Fusion'],
-                images: ['/shashika.dharmasena/images/drone-navigation.jpg'],
-                github: 'https://github.com/yourusername/drone-navigation'
+                title: 'DIY 6-Axis Robot Arm (Startup Initiative)',
+                shortDesc: 'Co-developed a DIY 6-axis robot arm using ROS 2, targeting startup creation.',
+                fullDesc: 'Collaborated with two friends on a passion project to design and build a cost-effective, DIY-friendly 6-axis robotic arm. Utilized readily available components like NEMA 17 and NEMA 23 stepper motors (common in 3D printers) and focused on an innovative design minimizing wiring complexity. While my friends primarily handled the mechanical design and core software, my main technical contribution was researching and implementing the ROS 2 framework for the arm\'s control, simulation (e.g., RViz), and communication interfaces. Our collective goal was to develop this concept towards a sellable product and form our own startup. In addition to the ROS 2 work, I took the initiative in exploring business viability and making initial contacts for potential venture funding, gaining practical startup experience.',
+                technologies: [
+                    'ROS 2',
+                    'Robotics',
+                    'Motion Control',
+                    'C++ / Python', // Assuming ROS 2 usage
+                    'Stepper Motors (NEMA 17/23)',
+                    'DIY Hardware',
+                    'System Integration',
+                    'Startup Development',
+                    'Business Development (Venture Contact)'
+                ],
+                images: [
+                    // Add photos of the robot arm, build process, or simulation
+                    '/shashika.dharmasena/images/arm1.JPEG', // Placeholder
+                    '/shashika.dharmasena/images/arm2.JPEG',  // Placeholder (RViz screenshot)
+                    '/shashika.dharmasena/images/arm3.JPEG',  // Placeholder (Optional team photo)
+                    '/shashika.dharmasena/images/arm4.JPEG',  // Placeholder (Optional team photo)
+                ],
+                // github: '' // Likely private if it was a startup attempt
             },
             {
                 id: 'rob2',
-                title: 'Robotic Arm for Precision Assembly',
-                shortDesc: 'Industrial robotic arm with advanced control',
-                fullDesc: 'Developed a control system for a 6-DOF robotic arm used in precision assembly tasks. Implemented inverse kinematics algorithms and force feedback control to achieve sub-millimeter accuracy.',
-                technologies: ['Python', 'ROS', 'Control Theory', 'CAD', 'Arduino'],
-                images: [
-                    '/shashika.dharmasena/images/robotic-arm-1.jpg',
-                    '/shashika.dharmasena/images/robotic-arm-2.jpg'
+                title: 'IDEKTEP Humanoid Robot (Teaching Assistant)',
+                shortDesc: 'Led development of a ROS 2 humanoid robot using Jetson Nano/Arduino for teaching kids robotics.',
+                fullDesc: 'While leading a robotics team at IDEKTEP, an academy focused on teaching robotics to kids, developed a humanoid robot designed as an engaging teaching assistant and activity host. Built on a differential drive base, it was powered by ROS 2 running on an NVIDIA Jetson Nano 4GB, interfacing with an Arduino Due for motor control and sensor readings. Equipped with an RP Lidar and ultrasonic sensors for basic environment awareness and interaction. The body was primarily 3D printed, making it accessible and modifiable within the educational setting.',
+                technologies: [
+                    'ROS 2',
+                    'Team Leadership',
+                    'Robotics Education',
+                    'NVIDIA Jetson Nano',
+                    'Arduino Due',
+                    'Microcontrollers',
+                    'RP Lidar',
+                    'Ultrasonic Sensors',
+                    'Differential Drive',
+                    '3D Printing',
+                    'System Integration'
                 ],
-                github: 'https://github.com/yourusername/robotic-arm'
+                images: [
+                    // Add photos/videos of the humanoid robot if available
+                    '/shashika.dharmasena/images/ideaktep1.JPG', // Placeholder
+
+                ],
+                github: '' // Likely internal/educational
             },
             {
                 id: 'rob3',
-                title: 'Swarm Robotics Platform',
-                shortDesc: 'Multi-robot coordination system',
-                fullDesc: 'Created a swarm robotics platform that enables coordination among multiple small robots. Implemented distributed algorithms for collective behavior, path planning, and task allocation.',
-                technologies: ['Python', 'Multi-agent Systems', 'Wireless Communication', 'Embedded Systems'],
-                images: ['/shashika.dharmasena/images/swarm-robotics.jpg'],
-                github: 'https://github.com/yourusername/swarm-robotics'
+                title: 'IDEKTEP Autonomous Intelligent Vehicle (AIV)',
+                shortDesc: 'Led design & ROS 2 stack development for an autonomous vehicle with QR parking, 100kg payload & advanced navigation.',
+                fullDesc: 'Spearheaded the design concept and led the development of the comprehensive ROS 2 software stack for an Autonomous Intelligent Vehicle (AIV) at IDEKTEP. This complex project involved creating a robust platform capable of autonomous navigation in challenging environments. Key features included autonomous parking using QR codes, intelligent self-charging for extended 8-hour service, and a 100 KG payload capacity with a flexible mounting system. Integrated a sophisticated sensor suite: a Realsense-type depth camera (3D obstacle layer), a 30m 2D Lidar (navigation & 2D obstacle mapping), and an IMU for precise localization. The system ran on a Mini PC executing the core ROS 2 navigation stack (including localization, mapping, path planning), communicating via Micro-ROS with an Arduino Due controlling the differential drive base.',
+                technologies: [
+                    'ROS 2',
+                    'Micro-ROS',
+                    'Team Leadership',
+                    'System Architecture Design',
+                    'Autonomous Navigation (SLAM/Localization/Mapping/Path Planning)',
+                    'Computer Vision (Depth Sensing, QR Codes)',
+                    'Lidar Processing',
+                    'Sensor Fusion (IMU)',
+                    'Arduino Due / Microcontrollers',
+                    'Differential Drive Control',
+                    'Robotics Education',
+                    'Project Management'
+                ],
+                images: [
+                    // Use the images you provided
+                    '/shashika.dharmasena/images/ideaktep3.jpg', // Make sure this path is correct
+                    '/shashika.dharmasena/images/ideaktep2.JPG' // Make sure this path is correct
+                    // Add more photos/videos if available: robot in action, parking, charging
+                ],
+                github: '' // Likely internal/educational
+            },
+            {
+                id: 'rob4',
+                title: 'Lead R&D Engineer (SLAM) - Cal-Comp Electronics',
+                shortDesc: 'Led SLAM team, developed hybrid & pure visual SLAM navigation for healthcare robots.',
+                fullDesc: 'Served as the Lead Robotics R&D Engineer for the SLAM team at Cal-Comp Electronics (Thailand). Focused on enhancing the navigation capabilities of mobile indoor robots, specifically for applications within medicine and healthcare systems. Key achievements included successfully developing and implementing both a novel hybrid relocalization system combining Lidar and Visual SLAM, and a robust navigation system based purely on Visual SLAM techniques. This work significantly improved the robot\'s ability to understand and navigate complex indoor environments autonomously.',
+                technologies: [
+                    'Team Leadership',
+                    'SLAM (Simultaneous Localization and Mapping)',
+                    'Visual SLAM (VSLAM)',
+                    'Lidar SLAM',
+                    'Sensor Fusion',
+                    'Computer Vision',
+                    'Robotics Navigation',
+                    'Mobile Robots',
+                    'C++ / Python', // Assuming common robotics languages
+                    'R&D',
+                    'Healthcare Robotics'
+                ],
+                images: [
+                    // Add photos/videos of the robots, navigation demos, or related work if available/permissible
+                    '/shashika.dharmasena/images/neweraai.jpg',   // Placeholder
+                ],
+                link: 'https://drive.google.com/file/d/1ipIqqZ5xFXj4cssALE9qI5H8GT91Ium6/view' // Proprietary work
+            },
+            {
+                id: 'rob5',
+                title: 'Master Thesis: Autonomous Vehicle for Western Digital Thailand',
+                shortDesc: 'Developed ROS-based AIV for automated pallet transport in WD (Master Thesis), covering design, SLAM, EKF localization & navigation.',
+                fullDesc: 'Completed a Master\'s thesis project focused on developing an Autonomous Intelligent Vehicle (AIV) solution for Western Digital (Thailand) to automate the transport of hard drive pallets within their facility. The project encompassed the full development cycle, starting from custom circuitry design through to high-level autonomous capabilities using the Robot Operating System (ROS). Key accomplishments included implementing robust indoor mapping via SLAM using dual Lidar units, precise robot localization through Extended Kalman Filter (EKF) based sensor fusion, sensor calibration, and implementing sophisticated navigation strategies utilizing various ROS-based local and global planners. A comprehensive ROS-based simulation environment was also created to validate algorithms prior to deployment on the physical robot. This practical work was underpinned by relevant Master\'s coursework in areas like advanced control, machine vision, AI, neural networks, fuzzy logic, and robotics.',
+                technologies: [
+                    'Master\'s Thesis',
+                    'Robot Operating System (ROS)',
+                    'Autonomous Navigation',
+                    'SLAM (Lidar-based)',
+                    'Sensor Fusion (EKF)',
+                    'Localization',
+                    'Path Planning (Local/Global Planners)',
+                    'Robot Control Systems',
+                    'Perception',
+                    'Circuit Design',
+                    'Simulation (Gazebo/RViz likely)',
+                    'Mobile Robots',
+                    'Industrial Automation (Logistics)'
+                ],
+                images: [
+                    // Add photos/videos of the robot, simulation, map, or circuitry if available
+                    '/shashika.dharmasena/images/master2.jpg',
+                    '/shashika.dharmasena/images/master1.jpg',
+                    '/shashika.dharmasena/images/master3.jpg'
+                ],
+                github: '' // Thesis work, likely not public
             }
         ]
     };
