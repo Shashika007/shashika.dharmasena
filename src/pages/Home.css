@@ -32,3 +32,8 @@
     text-align: center;
     border-top: 1px solid #eee;
 }
+
+/* Add to src/pages/Home.css */
+.container {
+    padding-top: 70px; /* Match the height of the navbar */
+}
